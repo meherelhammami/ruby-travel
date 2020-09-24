@@ -1156,7 +1156,7 @@ a.logo:before {
     top: 0;
     left: 0;
     text-align: left;
-    background: rgba(255, 255, 255, 0.97);
+    background: #18458B;
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -1318,7 +1318,7 @@ header .transparent .inner-nav > ul > li > a:hover {
 .inner-nav > ul > li.slash {
     float: left;
     line-height: 80px;
-    color: #530505;
+    color: #07357d;
 }
 
 .inner-nav.mobile_nav > ul > li.slash {
@@ -1326,10 +1326,10 @@ header .transparent .inner-nav > ul > li > a:hover {
 }
 
 .inner-nav ul li > a {
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: #a9b5c1;
+    color: #ffffff;
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1339,6 +1339,10 @@ header .transparent .inner-nav > ul > li > a:hover {
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.inner-nav > ul > li > ul > li > a {
+    color : #566985;
 }
 
 .inner-nav > ul > li > a {
@@ -1352,7 +1356,7 @@ header .transparent .inner-nav > ul > li > a:hover {
 
 .inner-nav:not(.mobile_nav) > ul > li > a:hover,
 .inner-nav > ul > li > a.active {
-    color: #424d58 !important;
+    color: #F9B90F !important;
     text-decoration: none;
 }
 
@@ -1361,6 +1365,7 @@ header .transparent .inner-nav > ul > li > a:hover {
 }
 
 .magic-line-main .magic-line-main-li {
+    display: none;
     position: absolute;
     bottom: 0;
     left: -30px;
@@ -1601,7 +1606,7 @@ header .transparent .inner-nav > ul > li > a:hover {
     -ms-transform: skew(-15deg);
     -o-transform: skew(-15deg);
     transform: skew(-15deg);
-    background: rgba(0, 97, 235, 0.9);
+    background: #18458B;
 }
 
 .main-nav li.search .close-button span {
@@ -1647,6 +1652,7 @@ header .main-nav.transparent li.search:after {
 }
 
 .inner-nav:after {
+    display: none;
     content: '';
     position: absolute;
     z-index: 1;
@@ -1704,8 +1710,9 @@ header .transparent .inner-nav:after {
     top: 100%;
     left: 0;
     padding: 20px 0;
-    background: rgba(66, 77, 88, 0.9);
-    border-bottom: 2px solid #530505;
+    background: #ffffff;
+    /*border-bottom: 2px solid #530505;*/
+    border-radius: 5px;
 }
 
 .main-nav.transparent.bg-80 .inner-nav:not(.mobile_nav) ul.mn-sub li a:not(.cws-button) {
@@ -1732,12 +1739,12 @@ header .transparent .inner-nav:after {
 
 .mn-sub li:hover > a,
 .mn-sub li.active > a {
-    color: #530505 !important;
+    color: #F9B90F !important;
 }
 
 .mn-sub li:hover > .button_open,
 .mn-sub li.active > .button_open {
-    color: #530505;
+    color: #F9B90F;
 }
 
 .inner-nav.desktop-nav ul li .mn-sub li > a {
@@ -1778,7 +1785,7 @@ header .transparent .inner-nav:after {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    color: #530505;
+    color: #424d58;
     font-size: 12px;
 }
 
@@ -2352,10 +2359,10 @@ nav .inner-nav.mobile_nav.opened ul {
 /* Site top panel */
 /*  */
 .site-top-panel {
-    background: rgba(0, 97, 235, 0.9);
+    background: #18458B;
     height: 62px;
     line-height: 60px;
-    border-top: 2px solid #005a87;
+    border-bottom: 2px solid #07357d;
 }
 
 .site-top-panel .top-left-wrap {
@@ -2376,12 +2383,12 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .site-top-panel .top-left-wrap a:hover {
-    color: #530505;
+    color: #F9B90F;
 }
 
 .site-top-panel .top-left-wrap span {
     margin: 0 25px;
-    color: #530505;
+    color: #07357d;
 }
 
 .site-top-panel .top-right-wrap {
@@ -2567,7 +2574,7 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .search-tours-wrap {
-    background: rgba(0, 97, 235, 0.9);
+    background: #18458B;
     position: relative;
 }
 
@@ -2623,7 +2630,7 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .search-tours-wrap .search-tours-tabs .search-tabs-wrap .tours-tab-btn .tours-tab-icon {
-    color: #530505;
+    color: #3AACED;
     font-size: 25px;
     position: absolute;
     z-index: 1;
@@ -3050,7 +3057,7 @@ nav .inner-nav.mobile_nav.opened ul {
     right: -8px;
     width: 100%;
     height: 100%;
-    background: #530505;
+    background: #F9B90F;
     -webkit-transform: skew(-16deg);
     -moz-transform: skew(-16deg);
     -ms-transform: skew(-16deg);

@@ -1801,7 +1801,12 @@
 .fa-user-times:before {
   content: "\f235";
 }
-.fa-hotel:before,
+.fa-hotel:before {
+  content: "\f594";
+}
+.fa-city:before {
+  content: "\f594";
+}
 .fa-bed:before {
   content: "\f236";
 }
