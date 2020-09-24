@@ -2653,7 +2653,7 @@ nav .inner-nav.mobile_nav.opened ul {
     left: -7px;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: #07357d;
     -webkit-transform: skew(-16deg);
     -moz-transform: skew(-16deg);
     -ms-transform: skew(-16deg);
