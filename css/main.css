@@ -4511,6 +4511,7 @@ nav .inner-nav.mobile_nav.opened ul {
 .features-tours-full-width .features-tours-wrap .features-tours-item {
     width: 25%;
     float: left;
+    padding : 20px;
 }
 
 .features-tours-full-width .features-tours-wrap .features-tours-item .features-media {
@@ -4525,7 +4526,7 @@ nav .inner-nav.mobile_nav.opened ul {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     -o-transition: all 0.35s;
@@ -4556,6 +4557,11 @@ nav .inner-nav.mobile_nav.opened ul {
     -o-transition: all 0.35s;
     transition: all 0.35s;
     color: #ffffff;
+}
+
+.info-temp {
+  color : #18458B !important;
+  background: #F9B90F !important;
 }
 
 .features-tours-full-width .features-tours-wrap .features-tours-item .features-media .features-info-top .info-price span,
@@ -4634,6 +4640,15 @@ nav .inner-nav.mobile_nav.opened ul {
     color: #ffffff;
     font-weight: 400;
 }
+
+.features-info-bot .title span{
+  color: #F9B90F !important;
+}
+
+/*.features-info-bot .title{
+  color: #18458B !important;
+}*/
+
 
 .features-tours-full-width .features-tours-wrap .features-tours-item .features-media .features-info-bot .button {
     position: absolute;
