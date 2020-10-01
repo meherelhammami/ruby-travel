@@ -509,41 +509,6 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
-  <h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner mt-5 row w-100 mx-auto">
-      <div class="carousel-item col-md-3 active">
-        <div class="card">
-           <div class="card-img-top img-fluid"><img src="pic/tours/1.jpg" data-at2x="pic/tours/1.jpg" alt>
-                <div class="features-info-top">
-                  <div class="info-price font-2"><span>à partir de</span>80 TND</div>
-                  <div class="info-temp font-2" ><b>PROMO -20% </b></div>
-                  <p class="info-text">Description de l'hotel, description de l'hotel, description de l'hotel.</p>
-                </div>
-                <div class="features-info-bot">
-                  <h4 class="title"><span class="font-2"><i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i></span> BEL AZUR <i class="fa fa-check-circle"></i></h4><a href="#" class="button">profiter Maintenant</a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item col-md-4">
-        <div class="card">
-          <div class="card-img-top img-fluid"><img src="pic/tours/2.jpg" data-at2x="pic/tours/2.jpg" alt>
-                <div class="features-info-top">
-                  <div class="info-price font-2"><span>à partir de</span>50 TND</div>
-                  <div class="info-temp font-2"><b>PROMO -35% </b></div>
-                  <p class="info-text">Description de l'hotel, description de l'hotel, description de l'hotel.</p>
-                </div>
-                <div class="features-info-bot">
-                  <h4 class="title"><span class="font-2"><i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i> <i class="fa fa-star checked"></i></span> ANDALUCIA BEACH HOTEL <i class="fa fa-check-circle"></i></h4><a href="#" class="button">profiter Maintenant</a>
-                </div>
-              </div>
-        </div>
-      </div>
-    </div>
-       <!--
         <div class="features-tours-full-width">
           <div class="features-tours-wrap clearfix">
             <div class="features-tours-item">
@@ -644,7 +609,7 @@
             </div>
           </div>
         </div>
-      </section>-->
+      </section>
       <!-- ! page section-->
       <!-- counter section -->
       <section class="small-section">
@@ -998,36 +963,5 @@
     <script type="text/javascript" src="tuner/js/colorpicker.js"></script>
     <script type="text/javascript" src="tuner/js/scripts.js"></script>
     <script type="text/javascript" src="js/retina.min.js"></script>
-
-
-    <script type="text/javascript">
-  
-
-$(document).ready(function() {
-  $("#myCarousel").on("slide.bs.carousel", function(e) {
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 3;
-    var totalItems = $(".carousel-item").length;
-
-    if (idx >= totalItems - (itemsPerSlide - 1)) {
-      var it = itemsPerSlide - (totalItems - idx);
-      for (var i = 0; i < it; i++) {
-        // append slides to end
-        if (e.direction == "left") {
-          $(".carousel-item")
-            .eq(i)
-            .appendTo(".carousel-inner");
-        } else {
-          $(".carousel-item")
-            .eq(0)
-            .appendTo($(this).find(".carousel-inner"));
-        }
-      }
-    }
-  });
-});
-</script>
   </body>
-
 </html>
