@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="rs-plugin/css/navigation.css">
     <link rel="stylesheet" href="tuner/css/colorpicker.css">
     <link rel="stylesheet" href="tuner/css/styles.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
  
   </head>
   <body>
@@ -510,7 +512,7 @@
             </div>
           </div>
         </div>
-       
+       <div class="owl-carousel">
         <div class="features-tours-full-width">
           <div class="features-tours-wrap clearfix">
             <div class="features-tours-item">
@@ -610,7 +612,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div></div>
       </section>-->
     
       <!-- ! page section-->
@@ -932,8 +934,20 @@
     </div>
     <!-- ! news popup-->
    
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script>
+    $(".owl-carousel").owlCarousel();
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          items:4,
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:1000,
+          autoplayHoverPause:true
+      });
+</script>
     <script src="https://www.youtube.com/player_api"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
