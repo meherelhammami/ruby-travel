@@ -14752,12 +14752,12 @@ p.error:before {
 
 
 .img-hover-zoom {
-  height: 50px; /* Modify this according to your need */
+  height: 200px; /* Modify this according to your need */
   overflow: hidden; /* Removing this will break the effects */
 }
 
 .img-hover-zoom {
-  height: 50px; /* [1.1] Set it as per your need */
+  height: 200px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
