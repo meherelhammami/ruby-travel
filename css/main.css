@@ -14770,3 +14770,12 @@ p.error:before {
 .img-hover-zoom:hover img {
   transform: scale(1.1);
 }
+
+
+#top_dest {
+     background: rgb(23,20,71);
+background: linear-gradient(90deg, rgba(23,20,71,1) 0%, rgba(47,44,107,1) 13%, rgba(255,255,255,0) 100%); 
+   
+    
+    
+}
