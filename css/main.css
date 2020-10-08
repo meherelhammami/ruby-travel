@@ -14780,7 +14780,7 @@ background: linear-gradient(90deg, rgba(23,20,71,1) 0%, rgba(47,44,107,1) 13%, r
 
 .bg-banner{
     background-image: url("http://easybook.cththemes.net/wp-content/uploads/2018/08/2-1.jpg");
-opacity: 0.4;
+opacity: 1;
 transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
