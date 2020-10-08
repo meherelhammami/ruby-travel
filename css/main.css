@@ -14776,6 +14776,14 @@ p.error:before {
      background: rgb(23,20,71);
 background: linear-gradient(90deg, rgba(23,20,71,1) 0%, rgba(47,44,107,1) 13%, rgba(255,255,255,0) 100%); 
    
-    
-    
+}
+
+.bg-banner{
+    background-image: url("http://easybook.cththemes.net/wp-content/uploads/2018/08/2-1.jpg");
+opacity: 0.4;
+transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.btn-banner{
+    background: #F9B90F;
 }
