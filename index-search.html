@@ -510,7 +510,7 @@
 
       <!-- page section-->
       <section class="page-section pb-0">
-        <div class="container">
+        <div class="container mt-5">
           <div class="row">
             <div class="col-md-12">
               <h6 class="title-section-top font-2" style="padding:20px;"></h6>
@@ -522,33 +522,6 @@
         </div>
        
 
-
-          <!-- 
-        <div class="owl-carousel owl-theme">
-            <div class="item"><img src="pic/tours/1.jpg"></div>
-            <div class="item"><img src="pic/tours/2.jpg"></div>
-            <div class="item"><img src="pic/tours/3.jpg"></div>
-            <div class="item"><img src="pic/tours/4.jpg"></div>
-            <div class="item"><img src="pic/tours/5.jpg"></div>
-            <div class="item"><img src="pic/tours/6.jpg"></div>
-
-                  <ul class="facilities-list fl-wrap">
-                            <li class="lfea-term-breakfast">
-                                        <i class="fas fa-concierge-bell"></i><span class="fea-tooltip">Breakfast</span>
-                                    </li>
-                            <li class="lfea-term-free-parking">
-                                        <i class="fas fa-parking"></i><span class="fea-tooltip">Free Parking</span>
-                                    </li>
-                            <li class="lfea-term-free-wi-fi">
-                                        <i class="fas fa-wifi"></i><span class="fea-tooltip">Free Wi Fi</span>
-                                    </li>
-                            <li class="lfea-term-restaurant-inside">
-                                        <i class="fas fa-utensils"></i><span class="fea-tooltip">Restaurant Inside</span>
-                                    </li>
-                    </ul>-->
-
-      <!--  <div class="features-tours-full-width">
-          <div class="features-tours-wrap clearfix">-->
 
             <!-------------------------------------Begin Carousel-------------------------->
              
@@ -1506,6 +1479,22 @@ $('.popover-dismiss').popover({
           autoplay:true,
           autoplayTimeout:1500,
           autoplayHoverPause:true,
+          responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
       });
 </script>
 
