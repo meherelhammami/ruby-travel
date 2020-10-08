@@ -527,7 +527,7 @@
              
 
 
-              <div class="owl-carousel owl-theme">
+              <div id="one" class="owl-carousel owl-theme">
             <div class="card   item ">
                 <div class="card-img img-hover-zoom img-hover-zoom--xyz ">
               <img id="top_dest" src="pic/tours/1.jpg"></div>
@@ -1173,7 +1173,7 @@
             
 
             <div class="col-8" style="margin-top: 150px;">
-              <div class="owl-carousel2 owl-carousel owl-theme">
+              <div id="two" class="owl-carousel owl-theme">
                
                 <div class="card item">
                    <div class="card-img img-hover-zoom img-hover-zoom--xyz ">
@@ -1492,9 +1492,12 @@ $('.popover-dismiss').popover({
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 
 <script>
-    $(".owl-carousel").owlCarousel({
+    $(document).ready(function(){
+      var one=$(#one);
+      var two=$(#two);
       
-     
+
+        one.owlCarousel({     
           items:4,
           loop:true,
           margin:15,
@@ -1517,14 +1520,11 @@ $('.popover-dismiss').popover({
             loop:false
         }
     }
-      });
-    </script>
-    <script>
 
-     $(".owl-carousel2").owlCarousel({
-      
-     
-          items:2,
+      });
+
+        two.owlCarousel({
+            items:2,
           loop:true,
           margin:10,
           autoplay:false,
@@ -1547,6 +1547,14 @@ $('.popover-dismiss').popover({
         }
     }
       });
+
+    </script>
+    <script>
+
+     $(".owl-carousel2").owlCarousel({
+      
+     
+        
 </script>
 
 
