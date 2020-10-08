@@ -1170,7 +1170,7 @@
             </div>
 
             
-              <div class="owl-carousel owl-theme">
+              <div class="owl-carousel2 owl-theme">
                 <div class="col-8">
                 <div class="card item">
                    <div class="card-img img-hover-zoom img-hover-zoom--xyz ">
@@ -1513,6 +1513,33 @@ $('.popover-dismiss').popover({
         },
         1000:{
             items:4,
+            nav:true,
+            loop:false
+        }
+    }
+      });
+
+     $(".owl-carousel2").owlCarousel({
+      
+     
+          items:2,
+          loop:true,
+          margin:15,
+          autoplay:true,
+          autoplayTimeout:1500,
+          autoplayHoverPause:true,
+          responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
             nav:true,
             loop:false
         }
