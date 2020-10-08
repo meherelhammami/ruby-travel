@@ -527,7 +527,9 @@
              
 
 
-              <div id="one" class="owl-carousel owl-theme">
+              <div  class="owl-two owl-carousel owl-theme">
+
+
             <div class="card   item ">
                 <div class="card-img img-hover-zoom img-hover-zoom--xyz ">
               <img id="top_dest" src="pic/tours/1.jpg"></div>
@@ -1173,7 +1175,7 @@
             
 
             <div class="col-8" style="margin-top: 150px;">
-              <div id="two" class="owl-carousel owl-theme">
+              <div  class="owl-two owl-carousel owl-theme">
                
                 <div class="card item">
                    <div class="card-img img-hover-zoom img-hover-zoom--xyz ">
@@ -1493,11 +1495,10 @@ $('.popover-dismiss').popover({
 
 <script>
     $(document).ready(function(){
-      var one=$(#one);
-      var two=$(#two);
       
-
-        one.owlCarousel({     
+      
+$('.owl-one').owlCarousel({
+           
           items:4,
           loop:true,
           margin:15,
@@ -1522,8 +1523,8 @@ $('.popover-dismiss').popover({
     }
 
       });
-
-        two.owlCarousel({
+$('.owl-two').owlCarousel({
+        
             items:2,
           loop:true,
           margin:10,
@@ -1547,7 +1548,7 @@ $('.popover-dismiss').popover({
         }
     }
       });
-      }
+      });
 
     </script>
     
