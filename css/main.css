@@ -14798,3 +14798,20 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 .banner-title{
     color: white;
 }
+
+.sales{
+    position: relative !important;
+    float: right !important;
+    z-index: 1001 !important;
+    top: -180px !important;
+    left:75 !important;
+}
+
+.feut{
+    position: relative !important;
+    float: right !important;
+    z-index: 1001 !important;
+     margin-top: 15px !important;
+    top: -160px !important;
+    left:-12px !important;
+}
