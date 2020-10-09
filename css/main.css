@@ -14804,7 +14804,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     float: right !important;
     z-index: 1001 !important;
     top: -180px !important;
-    left:75 !important;
+    left:70 !important;
 }
 
 .feut{
@@ -14813,5 +14813,5 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     z-index: 1001 !important;
      margin-top: 15px !important;
     top: -160px !important;
-    left:-12px !important;
+    left:70px !important;
 }
