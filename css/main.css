@@ -14826,3 +14826,17 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     padding-right: 25px !important;
     font-weight: bold;
 }
+
+.awgcard{
+      position: relative !important;
+    float: left !important;
+    z-index: 1001 !important;
+     margin-top: px !important;
+    top: -140px !important;
+    right:98px !important;
+   opacity: 1 !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    font-weight: bold;
+      color: white !important;
+}
