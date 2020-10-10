@@ -14804,8 +14804,11 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     float: right !important;
     z-index: 1001 !important;
     top: -180px !important;
-    left:70 !important;
-    opacity: 0.9;padding-left: 25px;padding-right: 25px;
+    left:-13px !important;
+    opacity: 0.9 !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    right: 13px !important
 }
 
 .feut{
@@ -14815,5 +14818,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
      margin-top: 15px !important;
     top: -140px !important;
     left:70px !important;
-    opacity: 0.9;padding-left: 25px;padding-right: 25px;
+   opacity: 0.9 !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
 }
