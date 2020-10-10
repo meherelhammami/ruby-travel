@@ -14809,6 +14809,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     padding-left: 25px !important;
     padding-right: 25px !important;
     right: 13px !important;
+    font-weight: bold;
 }
 
 .feut{
@@ -14817,8 +14818,9 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     z-index: 1001 !important;
      margin-top: 15px !important;
     top: -140px !important;
-    left:90px !important;
+    left:110px !important;
    opacity: 0.9 !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
+    font-weight: bold;
 }
