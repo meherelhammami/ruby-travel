@@ -14846,3 +14846,11 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     border-radius: 15px !important;
     border: 2px !important;
 }
+
+.extraheight{
+    height: 350px !important;
+}
+
+.act-height:{
+    height: 350px !important;
+}
