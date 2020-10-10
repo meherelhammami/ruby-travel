@@ -14810,9 +14810,11 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     padding-right: 25px !important;
     right: 13px !important;
     font-weight: bold;
+    color: white !important;
 }
 
 .feut{
+    color: white !important;
     position: relative !important;
     float: right !important;
     z-index: 1001 !important;
