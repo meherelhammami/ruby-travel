@@ -2404,7 +2404,7 @@ nav .inner-nav.mobile_nav.opened ul {
     cursor: pointer;
 }
 
-.top-login{
+.top-login a{
     color: white !important;
 }
 .site-top-panel .top-right-wrap .top-login a:hover {
