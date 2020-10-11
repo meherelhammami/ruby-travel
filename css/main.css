@@ -2404,9 +2404,13 @@ nav .inner-nav.mobile_nav.opened ul {
     cursor: pointer;
 }
 
+.top-login{
+    color: white !important;
+}
 .site-top-panel .top-right-wrap .top-login a:hover {
     color: #F9B90F;
     text-decoration: none;
+
 }
 
 .site-top-panel .top-right-wrap .dropdown {
