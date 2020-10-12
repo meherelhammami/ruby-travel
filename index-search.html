@@ -534,7 +534,7 @@
               <div  class="owl-one owl-carousel owl-theme ">
             <div class="card border cardbor   item ">
                 <div class=" img-hover-zoom cardbor img-hover-zoom--xyz ">
-              <img class="card-img cardbor" id="top_dest" src="pic/tours/1.jpg"></div>
+              <img class="card-img " id="top_dest" src="pic/tours/1.jpg"></div>
                <div class="features-info-top">
                   <button class="btn btn-danger sales"  disabled="">Sale 20%</button>
                   <button class="btn btn-warning feut"  disabled="">Featured</button>
@@ -1574,22 +1574,24 @@ $('.owl-one').owlCarousel({
           loop:true,
           margin:35,
           autoplay:true,
-          autoplayTimeout:500,
+          autoplayTimeout:1000,
           autoplayHoverPause:false,
           responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:true,
+            loop:true
         },
         600:{
             items:3,
-            nav:false
+            nav:false,
+            loop:true
         },
         1000:{
             items:4,
             nav:true,
-            loop:false
+            loop:true
         }
     }
 
@@ -1606,11 +1608,13 @@ $('.owl-two').owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:true,
+            loop:true
         },
         600:{
             items:2,
-            nav:true
+            nav:true,
+            loop:true
         },
         1000:{
             items:2,
