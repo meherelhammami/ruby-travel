@@ -14813,7 +14813,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     position: relative !important;
     float: right !important;
     z-index: 1001 !important;
-    top: -180px !important;
+    top: -220px !important;
     left:-13px !important;
     opacity: 0.9 !important;
     padding-left: 25px !important;
@@ -14842,13 +14842,14 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     float: left !important;
     z-index: 1001 !important;
      margin-top: px !important;
-    top: -140px !important;
+    top: -220px !important;
     right:98px !important;
    opacity: 1 !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
     font-weight: bold;
       color: white !important;
+      background-color: #18458B !important;
 }
 
 .cardbor{
@@ -14866,4 +14867,9 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 
 .act-height:{
     height: 350px !important;
+}
+
+.btn-sec{
+    background-color: #18458B !important;
+
 }
