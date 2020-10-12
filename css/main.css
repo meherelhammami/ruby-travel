@@ -14873,3 +14873,11 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     background-color: #18458B !important;
 
 }
+.textover{
+    position: relative !important;
+    float: left !important;
+    z-index: 1001 !important;
+     margin-top: px !important;
+    top: -30px !important;
+    right:98px !important;
+}
