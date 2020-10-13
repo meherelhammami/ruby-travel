@@ -14813,7 +14813,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     position: relative !important;
     float: right !important;
     z-index: 1001 !important;
-    top: -220px !important;
+    top: -267px !important;
     left:-13px !important;
     opacity: 0.9 !important;
     padding-left: 25px !important;
@@ -14838,7 +14838,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .awgcard{
-   
+
       position: relative !important;
     float: left !important;
     z-index: 1001 !important;
