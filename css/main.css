@@ -14813,6 +14813,19 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     position: relative !important;
     float: right !important;
     z-index: 1001 !important;
+    top: -220px !important;
+    left:-13px !important;
+    opacity: 0.9 !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    right: 13px !important;
+    font-weight: bold;
+    color: white !important;
+}
+.sales{
+    position: relative !important;
+    float: right !important;
+    z-index: 1001 !important;
     top: -267px !important;
     left:-13px !important;
     opacity: 0.9 !important;
@@ -14822,7 +14835,6 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     font-weight: bold;
     color: white !important;
 }
-
 .feut{
     color: white !important;
     position: relative !important;
