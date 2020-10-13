@@ -14881,3 +14881,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     top: -30px !important;
     right:98px !important;
 }
+
+.custom-container{
+max-width: 1270px !important;
+}
