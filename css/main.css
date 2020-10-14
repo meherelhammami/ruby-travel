@@ -1834,7 +1834,7 @@ header .transparent .inner-nav:after {
 
 .mn-has-multi {
     width: auto !important;
-    padding: 15px;
+    padding: 5px;
     text-align: left;
     white-space: nowrap;
 }
@@ -1842,7 +1842,7 @@ header .transparent .inner-nav:after {
 .mn-sub.mn-has-multi {
     left: initial;
     right: 0;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .mn-sub.mn-has-multi a.mn-group-title {
@@ -1851,7 +1851,7 @@ header .transparent .inner-nav:after {
     text-transform: uppercase !important;
     pointer-events: none;
     padding-left: 30px !important;
-    margin: 10px 0 !important;
+    margin: 5px 0 !important;
     color: #ffffff;
 }
 
@@ -1866,7 +1866,7 @@ header .transparent .inner-nav:after {
 }
 
 .mn-sub.mn-has-multi .menu-img {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .mn-sub-multi {
@@ -1900,7 +1900,7 @@ header .transparent .inner-nav:after {
 
 .inner-nav:not(.mobile_nav) .mn-sub.mn-has-multi > li:not(.back) {
     border-top: 0;
-    padding: 0 15px;
+    padding: 0 7px;
 }
 
 /**/
