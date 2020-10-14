@@ -14821,13 +14821,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     right: 13px !important;
     font-weight: bold;
     color: white !important;
-    border-left: 20px solid transparent;
-    border-bottom: 20px solid #5ECFB1;
-     border-left: 20px solid transparent;
-        border-left-color: transparent;
-        border-left-style: solid;
-        border-left-width: 20px;
-    border-top: 20px solid #5ECFB1;
+    
 }
 .sales2{
     position: relative !important;
