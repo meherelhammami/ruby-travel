@@ -14767,7 +14767,7 @@ p.error:before {
 }
 
 .img-hover-zoom {
-  height: 200px; /* [1.1] Set it as per your need */
+  height: 225px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -14855,13 +14855,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     padding-left: 25px !important;
     padding-right: 25px !important;
     font-weight: bold;
-     border-left: 20px solid transparent;
-    border-bottom: 20px solid #ff0000;
-     border-left: 20px solid transparent;
-        border-left-color: transparent;
-        border-left-style: solid;
-        border-left-width: 20px;
-    border-top: 20px solid #ff0000;
+    
 }
 
 .awgcard{
