@@ -14980,3 +14980,8 @@ max-width: 1270px !important;
     background: #ff0000;
     font-size: 13px;
 }
+
+.card-img{
+    height: 19vw !important;
+    object-fit: cover;
+}
