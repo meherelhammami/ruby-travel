@@ -14841,6 +14841,13 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     right: 13px !important;
     font-weight: bold;
     color: white !important;
+     border-left: 20px solid transparent;
+    border-bottom: 20px solid #ff0000;
+     border-left: 20px solid transparent;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 20px;
+    border-top: 20px solid #ff0000;
 }
 .feut{
     color: white !important;
@@ -14854,6 +14861,13 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     padding-left: 25px !important;
     padding-right: 25px !important;
     font-weight: bold;
+     border-left: 20px solid transparent;
+    border-bottom: 20px solid #ff0000;
+     border-left: 20px solid transparent;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 20px;
+    border-top: 20px solid #ff0000;
 }
 
 .awgcard{
