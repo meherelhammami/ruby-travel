@@ -1591,24 +1591,36 @@ $('.owl-one').owlCarousel({
           loop:true,
           margin:35,
           autoplay:true,
-          autoplayTimeout:750,
+          //autoplayTimeout:750,
           autoplayHoverPause:true,
           responsiveClass:true,
+          autoplaySpeed:500,
+          fluidSpeed:true,
+          dots:false
     responsive:{
         0:{
             items:1,
-            nav:true,
+            
             loop:true
+            autoplaySpeed:500,
+          fluidSpeed:true,
+          dots:false
         },
         600:{
             items:3,
-            nav:false,
+           
             loop:true
+            autoplaySpeed:500,
+          fluidSpeed:true,
+          dots:false
         },
         1000:{
             items:4,
-            nav:true,
+            
             loop:true
+            autoplaySpeed:500,
+          fluidSpeed:true,
+          dots:false
         }
     }
 
