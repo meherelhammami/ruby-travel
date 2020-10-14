@@ -14983,7 +14983,7 @@ max-width: 1270px !important;
     border-left: 20px solid transparent;
     border-bottom: 20px solid #ff0000;
 }
-.listing-featured2::before, .listing-featured::after {
+.listing-featured2::before, .listing-featured2::after {
     content: " ";
     display: block;
     position: absolute;
@@ -15005,7 +15005,7 @@ max-width: 1270px !important;
     border-left: 20px solid transparent;
     border-bottom: 20px solid #ff0000;
 }
-.listing-featured2::before, .listing-featured::after {
+.listing-featured2::before, .listing-featured2s::after {
     content: " ";
     display: block;
     position: absolute;
