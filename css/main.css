@@ -4938,8 +4938,8 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .recom-item .recom-item-body {
-    width: 70%;
-    padding: 30px 0 0 40px;
+    width: 92%;
+    padding: 30px 0 0 20px;
     position: absolute;
     z-index: 2;
     top: 0;
@@ -14884,7 +14884,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .extraheight{
-    height: 550px !important;
+    height: 830px  !important;
 }
 
 .act-height:{
