@@ -15108,7 +15108,7 @@ max-width: 1270px !important;
     height: 100px;
     position: absolute;
     top: 40%;
-    right: -25px;
+    right: 25px;
     display: block !important;
     border:0px solid black;
 }
