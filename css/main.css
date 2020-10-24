@@ -15102,6 +15102,7 @@ max-width: 1270px !important;
     display: block !important;
     border:0px solid black;
     background-color: #212529 !important ;
+    opacity: 0.7;
 }
 
 .owl-next {
@@ -15112,6 +15113,12 @@ max-width: 1270px !important;
     right: 5px;
     display: block !important;
     border:0px solid black;
+
     background-color: #212529 !important ;
+    opacity: 0.7;
 }
+
+.owl-next .owl-prev:hover{
+    opacity: 1;
+} 
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
