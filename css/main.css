@@ -15094,8 +15094,8 @@ max-width: 1270px !important;
 }
 
 .owl-prev {
-    width: 15px;
-    height: 100px;
+    width: 20px;
+    height: 35px;
     position: absolute;
     top: 40%;
     margin-left: -20px;
@@ -15104,11 +15104,11 @@ max-width: 1270px !important;
 }
 
 .owl-next {
-    width: 15px;
-    height: 100px;
+    width: 20px;
+    height: 35px;
     position: absolute;
     top: 40%;
-    right: 25px;
+    right: 5px;
     display: block !important;
     border:0px solid black;
 }
