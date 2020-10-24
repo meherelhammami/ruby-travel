@@ -730,7 +730,7 @@ h3 span {
 }
 
 .title-section.alt span {
-    color: #18458B;
+    color: #fff;
 }
 
 .title-section.alt-2 {
@@ -10753,7 +10753,7 @@ form.form .subscribe-submit {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-   
+   min-height: 530px;
 }
 
 .border-t {
