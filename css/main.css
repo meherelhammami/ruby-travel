@@ -2364,7 +2364,7 @@ nav .inner-nav.mobile_nav.opened ul {
     background: #18458B;
     height: 62px;
     line-height: 60px;
-    border-bottom: 2px solid #07357d;
+    
 }
 
 .site-top-panel .top-left-wrap {
@@ -15133,4 +15133,8 @@ max-width: 1270px !important;
         margin-left: -65px;
         top: 15px;
         position: relative;
+}
+
+.logophrase{
+    height: 40px;
 }
