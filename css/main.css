@@ -15135,8 +15135,11 @@ max-width: 1270px !important;
         margin-left: -65px;
         top: 15px;
         position: relative;
+        left:80px; 
 }
 
 .logophrase{
     height: 40px;
+    position: relative;
+    left: 65px;
 }
