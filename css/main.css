@@ -10701,6 +10701,8 @@ form.form .subscribe-submit {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    min-width: 1366px;
+max-width: 2560px;
 }
 
 .cws_prlx_section .overlay {
