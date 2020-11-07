@@ -1331,7 +1331,7 @@ header .transparent .inner-nav > ul > li > a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: #343232;
+    color: #ffffff;
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1363,7 +1363,7 @@ header .transparent .inner-nav > ul > li > a:hover {
 }
 
 .inner-nav.mobile_nav > ul > li > a.active {
-    color: #18458B !important;
+    color: #f9b90f !important;
 }
 
 .magic-line-main .magic-line-main-li {
@@ -2008,6 +2008,7 @@ nav .inner-nav.mobile_nav.opened ul {
     line-height: inherit !important;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #2458a9 !important;
 }
 
 .mobile_nav ul li a:not(.cws-button):hover,
