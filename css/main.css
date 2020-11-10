@@ -15144,3 +15144,10 @@ max-width: 1270px !important;
     position: relative;
     left: 65px;
 }
+
+.card .item {
+    min-height: 150px !important;
+}
+.card-img .img-hover-zoom .img-hover-zoom--xyz{
+    min-height: 150px !important;
+}
