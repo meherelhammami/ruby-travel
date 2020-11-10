@@ -15145,9 +15145,6 @@ max-width: 1270px !important;
     left: 65px;
 }
 
-.card{
-    min-height: 150px !important;
-}
-.card-img{
+#cardi{
     min-height: 150px !important;
 }
