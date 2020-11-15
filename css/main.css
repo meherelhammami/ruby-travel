@@ -366,7 +366,7 @@ ins.alt-5 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #18458B;
+    color: #7c0606;
     font-weight: 700;
 }
 
@@ -2586,7 +2586,7 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .search-tours-wrap {
-    background: #18458B;
+    background: #7c0606;
     position: relative;
 }
 
@@ -2616,7 +2616,7 @@ nav .inner-nav.mobile_nav.opened ul {
 
 .search-tours-wrap .search-tours-tabs .search-tabs-wrap .tours-tab-btn {
     display: inline-block;
-    color: #a9b5c1;
+    color: #7c0606;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
