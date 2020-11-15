@@ -2616,7 +2616,7 @@ nav .inner-nav.mobile_nav.opened ul {
 
 .search-tours-wrap .search-tours-tabs .search-tabs-wrap .tours-tab-btn {
     display: inline-block;
-    color: #7c0606;
+    color: #fff;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
@@ -5031,7 +5031,7 @@ nav .inner-nav.mobile_nav.opened ul {
     top: -2px;
     bottom: -2px;
     width: 20px;
-    background: #18458B;
+    background: #c82a2a;
     -webkit-transform: skew(-15deg) translateX(8px);
     -moz-transform: skew(-15deg) translateX(8px);
     -ms-transform: skew(-15deg) translateX(8px);
@@ -5606,14 +5606,14 @@ body .tparrows {
 }
 
 .cws-button.alt {
-    background: #18458B;
+    background: #c82a2a;
     color: #ffffff;
 }
 
 .cws-button.alt:hover {
-    color: #18458B;
-    background: #0967e3;
-    border-color: #0967e3;
+    color: #fff;
+    background: #7c0606;
+    border-color: #7c0606;
 }
 
 .cws-button.alt.border-left:before {
