@@ -7210,7 +7210,7 @@ body .tparrows {
     display: inline-block;
     line-height: 0.99;
     font-size: 32px;
-    color: #18458B;
+    color: #7c0606;
     position: absolute;
     left: 0;
     top: 5px;
@@ -7222,13 +7222,13 @@ body .tparrows {
 
 .counter-block .counter-name-wrap .counter {
     font-size: 38px;
-    color: #18458B;
+    color: #7c0606;
 }
 
 .counter-block .counter-name-wrap .counter-name {
     font-family: "Montserrat";
     font-size: 12px;
-    color: #18458B ;
+    color: #7c0606 ;
 }
 
 .counter-block.with-divider:before {
