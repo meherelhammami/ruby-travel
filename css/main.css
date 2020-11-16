@@ -5031,7 +5031,7 @@ nav .inner-nav.mobile_nav.opened ul {
     top: -2px;
     bottom: -2px;
     width: 20px;
-    background: #c82a2a;
+    background: #bb2121;
     -webkit-transform: skew(-15deg) translateX(8px);
     -moz-transform: skew(-15deg) translateX(8px);
     -ms-transform: skew(-15deg) translateX(8px);
@@ -5044,7 +5044,7 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .recom-item .recom-item-body .cws-button:hover:before {
-    background: #0967e3;
+    background: #7c0606;
 }
 
 .recom-item .recom-item-body .action {
@@ -7382,7 +7382,7 @@ body .tparrows {
 
 .pricing-tables.active a.cws-button {
     background-color: #18458B;
-    border-color: #18458B;
+    border-color: #bb2121;
     color: #ffffff;
 }
 
