@@ -1078,7 +1078,7 @@ hr {
     z-index: 1;
     display: block;
     width: 100%;
-    border-bottom: 2px solid #07357d;
+    border-bottom: 2px solid #510606;
 }
 
 .cws_divider.short,
@@ -8596,7 +8596,7 @@ footer.footer .copyright p {
 }
 
 footer.footer .copyright p span {
-    color: #18458B;
+    color: #f7b900;
 }
 
 footer.footer .copyright a {
