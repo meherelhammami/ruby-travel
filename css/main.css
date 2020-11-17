@@ -1320,7 +1320,7 @@ header .transparent .inner-nav > ul > li > a:hover {
 .inner-nav > ul > li.slash {
     float: left;
     line-height: 80px;
-    color: #07357d;
+    color: #ffb6b6;
 }
 
 .inner-nav.mobile_nav > ul > li.slash {
@@ -2642,7 +2642,7 @@ nav .inner-nav.mobile_nav.opened ul {
 }
 
 .search-tours-wrap .search-tours-tabs .search-tabs-wrap .tours-tab-btn .tours-tab-icon {
-    color: #3AACED;
+    color: #f0e7e7;
     font-size: 25px;
     position: absolute;
     z-index: 1;
@@ -5539,7 +5539,7 @@ body .tparrows {
     padding: 10px 20px;
     color: #939ea9;
     background: #ffffff;
-    border: 2px solid #c82a2a;
+    border: 2px solid +#c82a2a;
     text-transform: uppercase;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -7237,7 +7237,7 @@ body .tparrows {
     z-index: 1;
     top: 0;
     left: -40%;
-    border-left: 2px solid #18458B;
+    border-left: 2px solid #a80606;
     width: 3px;
     height: 50px;
     -webkit-transform: skew(-15deg);
