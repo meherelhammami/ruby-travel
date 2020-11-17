@@ -15148,3 +15148,12 @@ max-width: 1270px !important;
 #cardi{
     min-height: 150px !important;
 }
+
+a{
+    color: #fff !important;
+    text-decoration:none !important;
+}
+a:hover{
+    color:#FF8E8E !important;
+    text-decoration: none !important;
+}
