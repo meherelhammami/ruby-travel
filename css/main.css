@@ -14793,8 +14793,7 @@ background: linear-gradient(90deg, rgba(23,20,71,1) 0%, rgba(47,44,107,1) 13%, r
 .bg-banner{
 
     background-image:
-linear-gradient(90deg, rgba(8, 7, 31, 0.65) 0%, rgba(5, 4, 18, 0.25) 47%, rgba(5, 10, 23, 0.12) 100%),
-     url("http://easybook.cththemes.net/wp-content/uploads/2018/08/2-1.jpg");
+linear-gradient(90deg, rgba(124, 6, 6, 0.26) 0%, rgba(124, 6, 6, 0.33) 47%, rgba(124, 6, 6, 0.37) 100%), url("http://easybook.cththemes.net/wp-content/uploads/2018/08/2-1.jpg")
  width: 100%;
     height: 500px;
     background-size: cover;
@@ -14894,7 +14893,7 @@ transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .btn-sec{
-    background-color: #18458B !important;
+    background-color: #7c0606  !important;
 
 }
 .textover{
