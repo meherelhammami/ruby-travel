@@ -2030,7 +2030,7 @@ nav .inner-nav.mobile_nav.opened ul {
 .mobile_nav ul li {
     text-align: left;
     display: table;
-    background-color: #ffffff;
+    background-color: ##a92424;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -15133,10 +15133,10 @@ max-width: 1270px !important;
 .minilogo{
 
       height: 120px;
-margin-left: -75px;
-top: 8px;
-position: relative;
-left: 105px;
+      margin-left: -75px;
+      top: 8px;
+      position: relative;
+      left: 105px;
 }
 
 .logophrase{
