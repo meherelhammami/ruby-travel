@@ -15157,3 +15157,9 @@ a:hover{
     color:#FF8E8E !important;
     text-decoration: none !important;
 }
+
+
+.mobimg{
+    max-width: 350px !important;
+    margin-left: -30px !important;
+}
