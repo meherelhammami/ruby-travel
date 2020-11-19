@@ -15132,17 +15132,18 @@ max-width: 1270px !important;
 
 .minilogo{
 
-        height: 160px;
-        margin-left: -75px;
-        top: -22px;
-        position: relative;
-        left:105px; 
+      height: 120px;
+margin-left: -75px;
+top: 8px;
+position: relative;
+left: 105px;
 }
 
 .logophrase{
-    height: 40px;
-    position: relative;
-    left: 65px;
+    height: 32px;
+position: relative;
+left: 105px;
+top: -5px;
 }
 
 #cardi{
