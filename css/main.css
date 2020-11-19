@@ -1381,7 +1381,6 @@ header .transparent .inner-nav > ul > li > a:hover {
     -moz-transition: background 0.5s;
     -o-transition: background 0.5s;
     transition: background 0.5s;
-    left: -36px;
 }
 
 .magic-line-main li.search:hover + .magic-line-main-li {
@@ -1939,7 +1938,6 @@ header .transparent .inner-nav:after {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    left: -30px;
 }
 
 .inner-nav.mobile_nav .mobile_menu_switcher {
