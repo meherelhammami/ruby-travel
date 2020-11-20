@@ -2040,6 +2040,7 @@ nav .inner-nav.mobile_nav.opened ul {
 
 .inner-nav.mobile_nav li > a:after {
     display: none;
+    color: #fff !important;
 }
 
 .mobile_nav ul li + li {
