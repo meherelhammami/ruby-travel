@@ -1926,11 +1926,11 @@ header .transparent .inner-nav:after {
     top: 50%;
     width: 30px;
     height: 30px;
-    background: #18458B;
+    background: #ffd8d8;
     font-size: 14px;
     line-height: 32px;
     text-align: center;
-    color: #fff;
+    color: #7c0606;
     -webkit-font-smoothing: none;
     cursor: pointer;
     -webkit-transform: translateY(-50%);
